@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins','Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4caf50, #2196f3);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.converter {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  text-align: center;
+}
+p{
+  font-family: 'Poppins',sans-serif;
+}
+.converter h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.converter label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* تنظیمات برای ورودی‌های فرم */
+.converter input,
+.converter select {
+  width: 100%;
+  padding:14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* تنظیمات برای دکمه تبدیل */
+.converter button {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.converter button:hover {
+  background-color: #19d288;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .converter {
+    width: 90%;
+  }
+}
